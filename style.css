@@ -335,3 +335,93 @@ body {
     background-color: rgb(238, 233, 233);
     
 }
+
+@media (max-width: 1024px) {
+    .formula-bar {
+      font-size: 14px;
+      padding: 0 0.3rem;
+    }
+    .formula-editor {
+      font-size: 14px;
+    }
+    .menu-item {
+      font-size: 14px;
+      padding: 0 8px;
+    }
+    .menu-icon {
+      padding: 0 8px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .selector {
+        height: 25px;
+        font-size: 18px;
+        
+      }
+    .menu-item, .menu-icon {
+      font-size: 12px;
+      padding: 0 5px;
+    }
+    .formula-bar {
+      font-size: 12px;
+    }
+    .input-cell {
+      font-size: 12px;
+      min-width: 80px;
+    }
+    .color-picker{
+      
+        width: 30px;
+        height: 12px;
+        border: none;
+        padding: 0;
+        background-color: rgb(241, 240, 240);
+        left: 3px;
+        top: 18px;
+        cursor: pointer;
+       
+    }
+  }
+  
+  @media (max-width: 480px) {
+    
+    .selector {
+      height: 20px;
+      font-size: 15px;
+      
+    }
+    .menu-bar, .menu-icon-bar{
+      flex-wrap: wrap;
+      height: auto;
+    }
+    .menu-item {
+      padding: 5px;
+    }
+    .formula-editor {
+        flex-direction: row;
+      }
+    .data-container {
+      height: calc(100vh - 30vh);
+    }
+    .input-cell {
+      min-width: 60px;
+      font-size: 10px;
+    }
+    .color-picker{
+      
+        width: 30px;
+        height: 12px;
+        border: none;
+        padding: 0;
+        background-color: rgb(241, 240, 240);
+        left: 3px;
+        top: 18px;
+        cursor: pointer;
+       
+    }
+    .sheet-tab {
+      font-size: 12px;
+      padding: 0 5px;
+    }
+  }
